@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="CSS.css"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+     crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css" >-->
+    <title>YourWater</title> <!-- -->
+</head>
+
+
+<body>
+<div class="cart" >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src = "card_medium.png" alt="logo" height="50px"></a>
+
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+       aria-controls="navbarSupportedContent" 
+       aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="location.png" height="20px" > Kyiv
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Kyiv</a></li>
+              <li><a class="dropdown-item" href="#">Kharkiv</a></li>
+              <li><a class="dropdown-item" href="#">Odessa</a></li>
+            </ul>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"><img src="phone.png" height="20px" > 0 800 000 000</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#"><img src="cart.jpg" height="40px"> </a>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <!--Section: Block Content-->
+<section >
+
+  <!--Grid row-->
+  <div  class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-4">
+
+      <!-- Card -->
+      <div class="mb-3">
+        <div class="pt-4 wish-list">
+
+          <h5 class="mb-4">Cart (<span>2</span> items)</h5>
+
+          <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+              <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                <img class="img-fluid w-100"
+                  src="Alaska_kul.jpg" alt="Sample">
+                <a href="#!">
+                  
+                </a>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5>Вода Аляска 18,9л</h5>
+                    <p class="mb-3 text-muted text-uppercase small">Shirt - blue</p>
+                    <p class="mb-2 text-muted text-uppercase small">Color: blue</p>
+                    <p class="mb-3 text-muted text-uppercase small">Size: M</p>
+                  </div>
+                  <div>
+                    <div class="def-number-input number-input safari_only mb-0 w-100">
+                      <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                        class="minus decrease"></button>
+                      <input class="quantity" min="0" name="quantity" value="1" type="number">
+                      <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        class="plus increase"></button>
+                    </div>
+                    <small id="passwordHelpBlock" class="form-text text-muted text-center">
+                      (Note, 1 piece)
+                    </small>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="#!" type="button" class="card-link-secondary small text-uppercase mr-3"><i
+                        class="fas fa-trash-alt mr-1"></i> Remove item </a>
+                    <a href="#!" type="button" class="card-link-secondary small text-uppercase"><i
+                        class="fas fa-heart mr-1"></i> Move to wish list </a>
+                  </div>
+                  <p class="mb-0"><span><strong id="summary">$17.99</strong></span></p class="mb-0">
+                </div>
+              </div>
+            </div>
+          </div>
+                   
+        
+        </div>
+      </div>
+      <!-- Card -->
+
+      <!-- Card -->
+      <div class="mb-3">
+        <div class="pt-4">
+
+          <h5 class="mb-4">Expected shipping delivery</h5>
+
+          <p class="mb-0"> Thu., 12.03. - Mon., 16.03.</p>
+        </div>
+      </div>
+      <!-- Card -->
+
+      <!-- Card -->
+      <div class="mb-3">
+        <div class="pt-4">
+
+          <h5 class="mb-4">We accept</h5>
+
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+            alt="Visa">
+          
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+            alt="Mastercard">
+          
+        </div>
+      </div>
+      <!-- Card -->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4">
+
+      <!-- Card -->
+      <div class="mb-3">
+        <div class="pt-4">
+
+          <h5 class="mb-3">The total amount of</h5>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+              Temporary amount
+              <span>$25.98</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+              Shipping
+              <span>Gratis</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+              <div>
+                <strong>The total amount of</strong>
+                <strong>
+                  <p class="mb-0">(including VAT)</p>
+                </strong>
+              </div>
+              <span><strong>$53.98</strong></span>
+            </li>
+          </ul>
+
+          <button type="button" class="btn btn-primary btn-block">go to checkout</button>
+
+        </div>
+      </div>
+      <!-- Card -->
+
+      <!-- Card -->
+      <div class="mb-3">
+        <div class="pt-4">
+
+          <a class="dark-grey-text d-flex justify-content-between" data-toggle="collapse" href="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Add a discount code (optional)
+            <span><i class="fas fa-chevron-down pt-1"></i></span>
+          </a>
+
+          <div class="collapse" id="collapseExample">
+            <div class="mt-3">
+              <div class="md-form md-outline mb-0">
+                <input type="text" id="discount-code" class="form-control font-weight-light"
+                  placeholder="Enter discount code">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card -->
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!--Section: Block Content-->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</div>     
+</body>
+</html>
