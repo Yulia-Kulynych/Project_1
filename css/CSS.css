@@ -1,0 +1,47 @@
+
+body{
+	background-image: url(../img/card.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+/*.overlay{
+	background: rgba(235, 228, 228, 0.2);
+}*/
+ 
+.bottled, .bottle, .coolers, .form, .contacts{
+	background-color: rgb(32,32,32);
+}
+
+.navigation{
+	margin-top: 80px;
+	
+}
+
+p{
+	color:white;
+}
+.contacts_s{
+	color:gray;
+	margin: 20px;
+}
+.footer{
+    padding-bottom:2px;
+	margin-top: 260px;
+}
+
+footer h6{
+	color:gray;
+}
+
+.form_deliv{
+	color:gray;
+	margin: 30px;
+	width: 1020px;
+	height: 300px;
+}
+.cart{
+	background: white;
+}
